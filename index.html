@@ -1,0 +1,200 @@
+<html>
+<head>
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            
+
+        }
+        .container {
+            width: 800px;
+            margin: 50px auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        .header {
+            background-color: #6b7a6e;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header .name {
+            font-size: 36px;
+            font-weight: bolder;
+            text-decoration: underline;
+            padding-left: 40px;
+           
+        }
+        .header .title {
+            font-size: 22px;
+            text-decoration: underline;
+            padding-top: 20px;
+            padding-left: 10px;
+        }
+        .header .photo {
+            width: 150px;
+            height: 150px;
+            background: url(image.png) no-repeat center center;
+            background-size: cover;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+        .content {
+            padding: 20px;
+            background-color: #d1d6d1;
+        }
+        .content .section {
+            margin-bottom: 20px;
+        }
+        .content .section h2 {
+            font-size: 22px;
+            text-decoration: underline;
+            margin-bottom: 10px;
+
+        }
+        .content .section p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .content .section .contact-info {
+            display: flex;
+            justify-content: space-between;
+        }
+        .content .section .contact-info div {
+            width: 48%;
+        }
+        .content .section .education, .content .section .experience {
+            display: flex;
+            justify-content: space-between;
+        }
+        .content .section .education div, .content .section .experience div {
+            width: 48%;
+        }
+        .content .section .skills, .content .section .social {
+            display: flex;
+            justify-content: space-between;
+        }
+        .content .section .skills ul, .content .section .social ul {
+            list-style: none;
+            padding: 0;
+        }
+        .content .section .skills ul li, .content .section .social ul li {
+            margin-bottom: 10px;
+        }
+        .content .section .social ul li i {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <div class="name">Aiza Nadeem</div>
+                <div class="title">Student Of GIAIC</div>
+            </div>
+            <div class="photo"> 
+            </div>
+        </div>
+        <div class="content">
+            <div class="section">
+                <h2>CONTACT</h2>
+                <div class="contact-info">
+                    <div>
+                        <p> Country : Pakistan</p>
+                        <p>Phone : 0300 8899889</p>
+                    </div>
+                    <div>
+                        <p>Email : aizakhan@gmail.com</p>
+                        <p>Experience : Fresher</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <h2>EDUCATION</h2>
+                <div class="education">
+                    <div>
+                        <p>Your degree/major</p>
+                        <p>University name</p>
+                        <p>2014 - 2018</p>
+                    </div>
+                    <div>
+                        <p>Your degree/major</p>
+                        <p>University name</p>
+                        <p>2014 - 2018</p>
+                    </div>
+                    <div>
+                        <p>Your degree/major</p>
+                        <p>University name</p>
+                        <p>2014 - 2018</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <h2>EXPERIENCE</h2>
+                <div class="experience">
+                    <div>
+                        <p>Web developer</p>
+                        <p>Freelancer - karachi</p>
+                        <p>2014 - 2018</p>
+                        <p>I am a expert Web developer</p>
+                    </div>
+                    <div>
+                        <p>MS Office Expert</p>
+                        <p>Freelance - karachi</p>
+                        <p>2014 - 2018</p>
+                        <p>I am expert in word excel and PowerPoint.</p>
+                    </div>
+                    <div>
+                        <p>SQA Engineer</p>
+                        <p>Company name - City</p>
+                        <p>2014 - 2018</p>
+                        <p>I am Software quality Assurance Engineer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <h2>SKILLS</h2>
+                <div class="skills">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JAVASCRIPT</li>
+                        <li>TYPESCRIPT</li>
+                        <li>TAILWIND</li>
+                        <li>REACT JS</li>
+                        <li>NEXT JS</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section">
+                <h2>SOCIAL</h2>
+                <div class="social">
+                    <ul>
+                        <li><i class="fab fa-instagram"></i>/your-username</li>
+                        <li><i class="fab fa-facebook"></i>/your-username</li>
+                        <li><i class="fab fa-linkedin"></i>/your-username</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
